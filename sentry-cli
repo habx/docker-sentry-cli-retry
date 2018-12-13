@@ -1,2 +1,2 @@
 #!/bin/sh
-retry sentry-cli $@
+retry /bin/sentry-cli $@

@@ -3,7 +3,6 @@ n=0
 until [ $n -ge 10 ]
 do
     $@ && break  # substitute your command here
-    n=$[$n+1]
     echo Retrying...
-    sleep $n
+    sleep 5
 done
